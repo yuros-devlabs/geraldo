@@ -10,12 +10,12 @@ pat_keys_gitlab=""
 ssh_keys_github=""
 
 
-app_github_dev_name="yuros-devlabs"
-app_github_dev_repo="geraldo"
+app_github_dev_name=yuros-devlabs
+app_github_dev_repo=geraldo
 
 
-app_github_pkg_name="yuros-devlabs"
-app_github_pkg_repo="geraldo"
+app_github_pkg_name=yuros-devlabs
+app_github_pkg_repo=geraldo
 
 
 app_gitlab_pkg_name=""

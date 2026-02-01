@@ -88,7 +88,8 @@ jobs:
           echo "manual"
       - name: listing files
         run: |
-          ls -la
+          chmod +x ./builder/prepare
+          ./builder/prepare
       - name: Build the site
         run: |
           hugo \

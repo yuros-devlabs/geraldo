@@ -4,7 +4,7 @@
 ## APIS
 
 function packers_apisgen_prepar() {
-    mkdir -p ./assets/api/github &&
+    mkdir -p ./assets/api/github
 }
 
 

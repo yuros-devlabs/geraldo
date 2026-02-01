@@ -77,9 +77,15 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys:
             hugo-
-      - name: Prepare external data
+      - name: Prepare upstream data
         run: |
-          echo "work"
+          echo "upstream"
+      - name: Prepare packages data
+        run: |
+          echo "packages"
+      - name: Prepare manual data
+        run: |
+          echo "manual"
       - name: Build the site
         run: |
           hugo \

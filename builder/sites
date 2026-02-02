@@ -35,8 +35,11 @@ function packers_apisgen_versio() {
 function packers_apisgen_devels() {
     test -f ./assets/api/github/devs.json && rm ./assets/api/github/devs.json
     curl https://api.github.com/users/$github_publishe > ./assets/api/github/devs.json
+    echo "cat devs.json"
     cat ./assets/api/github/devs.json
+
 }
+
 
 
 function packers_apisgen_packer() {
